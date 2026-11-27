@@ -1,0 +1,45 @@
+metadata:
+  name: pp-148
+  namespace: nuclio
+  annotations:
+    name: PointPillars 148
+    type: detector
+    framework: pytorch
+    supported_shape_types: cuboid
+    spec: |
+      [
+        {"id": 1, "name": "Car", "type": "cuboid"},
+        {"id": 2, "name": "Truck", "type": "cuboid"},
+        {"id": 3, "name": "Bus", "type": "cuboid"},
+        {"id": 4, "name": "Cyclist", "type": "cuboid"},
+        {"id": 5, "name": "Pedestrian", "type": "cuboid"}
+      ]
+
+spec:
+  description: PointPillars 3D cuboid detector for VF LiDAR (Day 14 bonus - student 148)
+  runtime: python:3.10
+  handler: main:handler
+  eventTimeout: 120s
+  readinessTimeoutSeconds: 180
+
+  build:
+    image: cvat.pp-148:latest
+    baseImage: python:3.10-slim
+    directives:
+      preCopy:
+        - kind: RUN
+          value: pip install --no-cache-dir --index-url https://download.pytorch.org/whl/cpu torch && pip install --no-cache-dir numpy
+
+  triggers:
+    myHttpTrigger:
+      kind: http
+      numWorkers: 1
+      attributes:
+        maxRequestBodySize: 33554432
+
+  platform:
+    attributes:
+      network: cvat_cvat
+      restartPolicy:
+        name: always
+        maximumRetryCount: 3

@@ -1,0 +1,112 @@
+[
+ {
+  "scope": "click:element",
+  "obj_name": "canvas-click",
+  "obj_val": null,
+  "source": "client",
+  "timestamp": "2026-11-26T14:47:40.968Z",
+  "task_id": 35,
+  "job_id": 35,
+  "payload": "{\"x\":408,\"y\":398,\"button\":0,\"dt_ms\":null,\"dist_px\":null,\"view\":\"cvat-canvas-container\"}"
+ },
+ {
+  "scope": "click:element",
+  "obj_name": "canvas-click",
+  "obj_val": null,
+  "source": "client",
+  "timestamp": "2026-11-26T14:47:41.626Z",
+  "task_id": 35,
+  "job_id": 35,
+  "payload": "{\"x\":487,\"y\":386,\"button\":0,\"dt_ms\":659,\"dist_px\":80,\"view\":\"cvat-canvas-container\"}"
+ },
+ {
+  "scope": "debug:info",
+  "obj_name": "keydown",
+  "obj_val": "k",
+  "source": "client",
+  "timestamp": "2026-11-26T14:47:42.114Z",
+  "task_id": 35,
+  "job_id": 35,
+  "payload": "{\"dt_ms\":null}"
+ },
+ {
+  "scope": "debug:info",
+  "obj_name": "keydown",
+  "obj_val": "u",
+  "source": "client",
+  "timestamp": "2026-11-26T14:47:42.480Z",
+  "task_id": 35,
+  "job_id": 35,
+  "payload": "{\"dt_ms\":366}"
+ },
+ {
+  "scope": "click:element",
+  "obj_name": "canvas-click",
+  "obj_val": null,
+  "source": "client",
+  "timestamp": "2026-11-26T14:47:43.597Z",
+  "task_id": 35,
+  "job_id": 35,
+  "payload": "{\"x\":182,\"y\":816,\"button\":0,\"dt_ms\":1970,\"dist_px\":527,\"view\":\"cvat-canvas3d-fullsize\"}"
+ },
+ {
+  "scope": "debug:info",
+  "obj_name": "keydown",
+  "obj_val": "Delete",
+  "source": "client",
+  "timestamp": "2026-11-26T14:47:44.486Z",
+  "task_id": 35,
+  "job_id": 35,
+  "payload": "{\"dt_ms\":2006}"
+ },
+ {
+  "scope": "click:element",
+  "obj_name": "canvas-click",
+  "obj_val": null,
+  "source": "client",
+  "timestamp": "2026-11-26T14:47:45.537Z",
+  "task_id": 35,
+  "job_id": 35,
+  "payload": "{\"x\":174,\"y\":821,\"button\":0,\"dt_ms\":1941,\"dist_px\":9,\"view\":\"cvat-canvas3d-fullsize\"}"
+ },
+ {
+  "scope": "click:element",
+  "obj_name": "canvas-click",
+  "obj_val": null,
+  "source": "client",
+  "timestamp": "2026-11-26T14:47:46.063Z",
+  "task_id": 35,
+  "job_id": 35,
+  "payload": "{\"x\":525,\"y\":418,\"button\":0,\"dt_ms\":525,\"dist_px\":534,\"view\":\"cvat-canvas-container\"}"
+ },
+ {
+  "scope": "debug:info",
+  "obj_name": "keydown",
+  "obj_val": "Delete",
+  "source": "client",
+  "timestamp": "2026-11-26T14:47:46.827Z",
+  "task_id": 35,
+  "job_id": 35,
+  "payload": "{\"dt_ms\":2341}"
+ },
+ {
+  "scope": "click:element",
+  "obj_name": "canvas-click",
+  "obj_val": null,
+  "source": "client",
+  "timestamp": "2026-11-26T14:47:47.309Z",
+  "task_id": 35,
+  "job_id": 35,
+  "payload": "{\"x\":463,\"y\":398,\"button\":0,\"dt_ms\":1247,\"dist_px\":66,\"view\":\"cvat-canvas-container\"}"
+ },
+ {
+  "scope": "debug:info",
+  "obj_name": "keydown",
+  "obj_val": "Ctrl+s",
+  "source": "client",
+  "timestamp": "2026-11-26T14:47:47.944Z",
+  "task_id": 35,
+  "job_id": 35,
+  "payload": "{\"dt_ms\":1118}"
+ }
+]

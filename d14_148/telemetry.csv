@@ -1,0 +1,7 @@
+file,job_id,canvas_clicks,shortcut_keys,median_click_gap_ms,mean_click_dist_px,keyboard_ratio,active_span_s,top_keys
+d14-telemetry-job35-00-s02f02.json,35,21,12,1007,237,0.36,25,Delete×7 i×1 l×1 k×1 Escape×1
+d14-telemetry-job35-01-s03f07.json,35,48,17,636,213,0.26,41,Escape×5 j×3 n×3 Delete×2 k×2
+d14-telemetry-job35-02-s03f25.json,35,6,5,1247,243,0.45,7,Delete×2 k×1 u×1 Ctrl+s×1
+d14-telemetry-job35-03-s04f03.json,35,67,24,653,220,0.26,57,Escape×7 n×6 j×3 l×2 i×2
+d14-telemetry-job35-04-s04f19.json,35,46,16,622,230,0.26,39,Escape×5 j×3 n×3 i×2 Delete×1
+d14-telemetry-job35-05-s05f46.json,35,34,14,634,226,0.29,32,Delete×5 Escape×3 o×1 i×1 l×1
